@@ -13,22 +13,43 @@ const TopNavbar = ({ toggleSidebar, pageName }) => {
   const navigate = useNavigate();
 
   // 🩵 Fetch plan from backend
-  const fetchPlan = async (userId) => {
+  // 🩵 Fetch plan from backend
+  const fetchPlan = async () => {
     try {
-      console.log("🚀 Fetching plan from backend for userId:", userId);
-      const res = await fetch(`/api/user/${userId}/plan`);
-      const data = await res.json();
-      console.log("📦 Plan response data:", data);
+      console.log("🚀 Fetching plan/credits from backend");
+      const res = await fetch("/api/users/credits", {
+        // add this if you're using cookie-based auth
+        credentials: "include",
+      });
 
-      const planName = data.planName || "Free";
+      if (!res.ok) {
+        throw new Error(`Failed to fetch credits: ${res.status}`);
+      }
+
+      const data = await res.json();
+      console.log("📦 Credits response data:", data);
+
+      // backend returns: plan, emailSendCredits, emailVerificationCredits
+      const rawPlan = data.plan || "Free";
+      const planName =
+        rawPlan.charAt(0).toUpperCase() + rawPlan.slice(1); // "essentials" -> "Essentials"
+
       const verificationCredits = data.emailVerificationCredits ?? 50;
       const sendCredits = data.emailSendCredits ?? 50;
 
-      console.log("🎯 Parsed plan details:", { planName, verificationCredits, sendCredits });
+      console.log("🎯 Parsed plan details:", {
+        planName,
+        verificationCredits,
+        sendCredits,
+      });
 
+      // save to localStorage so you still have it on refresh
       localStorage.setItem("planName", planName);
-      localStorage.setItem("emailVerificationCredits", verificationCredits);
-      localStorage.setItem("totalEmails", sendCredits);
+      localStorage.setItem(
+        "emailVerificationCredits",
+        verificationCredits.toString()
+      );
+      localStorage.setItem("totalEmails", sendCredits.toString());
 
       setCredits({
         verifications: verificationCredits,
@@ -40,9 +61,10 @@ const TopNavbar = ({ toggleSidebar, pageName }) => {
         return { ...prev, plan: planName };
       });
     } catch (err) {
-      console.error("❌ Failed to fetch user plan:", err);
+      console.error("❌ Failed to fetch user plan/credits:", err);
     }
   };
+
 
   // 🩵 Fetch plan on mount (only if user is logged in)
   useEffect(() => {
@@ -67,6 +89,11 @@ const TopNavbar = ({ toggleSidebar, pageName }) => {
       setCredits({
         emails: parseInt(localStorage.getItem("totalEmails")) || 0,
         verifications:
+
+
+
+
+        
           parseInt(localStorage.getItem("emailVerificationCredits")) || 0,
       });
     };

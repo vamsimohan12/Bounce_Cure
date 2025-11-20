@@ -18,10 +18,10 @@ const templates = [
       {
         type: "text",
         value: "Welcome to Our Community",
-        style: { 
-          fontSize: 36, 
-          color: "#1e40af", 
-          fontWeight: "700", 
+        style: {
+          fontSize: 36,
+          color: "#1e40af",
+          fontWeight: "700",
           textAlign: "center",
           marginBottom: "20px",
           letterSpacing: "-0.025em"
@@ -30,9 +30,9 @@ const templates = [
       {
         type: "paragraph",
         value: "We're excited to have you join thousands of satisfied customers who trust us with their business needs. Your journey starts here, and we're committed to providing you with exceptional service every step of the way.",
-        style: { 
-          fontSize: 18, 
-          color: "#374151", 
+        style: {
+          fontSize: 18,
+          color: "#374151",
           textAlign: "center",
           lineHeight: "1.6",
           marginBottom: "30px",
@@ -50,9 +50,9 @@ const templates = [
       {
         type: "paragraph",
         value: "Here's what you can expect: 24/7 customer support, exclusive member benefits, and access to our premium resources. If you have any questions, our team is always ready to help.",
-        style: { 
-          fontSize: 16, 
-          color: "#6b7280", 
+        style: {
+          fontSize: 16,
+          color: "#6b7280",
           textAlign: "center",
           lineHeight: "1.5",
           marginBottom: "25px"
@@ -90,10 +90,10 @@ const templates = [
       {
         type: "text",
         value: "Your Weekly Business Insights",
-        style: { 
-          fontSize: 32, 
-          color: "#111827", 
-          fontWeight: "700", 
+        style: {
+          fontSize: 32,
+          color: "#111827",
+          fontWeight: "700",
           textAlign: "center",
           marginBottom: "15px"
         },
@@ -101,15 +101,15 @@ const templates = [
       {
         type: "paragraph",
         value: "This week's edition features market trends, growth strategies, and exclusive insights from industry leaders that you won't find anywhere else.",
-        style: { 
-          fontSize: 18, 
-          color: "#4b5563", 
+        style: {
+          fontSize: 18,
+          color: "#4b5563",
           textAlign: "center",
           lineHeight: "1.6",
           marginBottom: "25px"
         },
       },
-     {
+      {
         type: "image",
         value: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
         style: {
@@ -123,10 +123,10 @@ const templates = [
       {
         type: "text",
         value: "Featured This Week",
-        style: { 
-          fontSize: 24, 
-          color: "#059669", 
-          fontWeight: "600", 
+        style: {
+          fontSize: 24,
+          color: "#059669",
+          fontWeight: "600",
           textAlign: "left",
           marginBottom: "15px"
         },
@@ -134,9 +134,9 @@ const templates = [
       {
         type: "paragraph",
         value: "• 5 proven strategies to increase customer retention\n• Market analysis: Q3 trends every business owner should know\n• Exclusive interview with successful entrepreneurs\n• Tools and resources to streamline your workflow",
-        style: { 
-          fontSize: 16, 
-          color: "#374151", 
+        style: {
+          fontSize: 16,
+          color: "#374151",
           textAlign: "left",
           lineHeight: "1.8",
           marginBottom: "25px"
@@ -181,10 +181,10 @@ const templates = [
       {
         type: "text",
         value: "Transform Your Dreams Into Reality",
-        style: { 
-          fontSize: 38, 
-          color: "#dc2626", 
-          fontWeight: "800", 
+        style: {
+          fontSize: 38,
+          color: "#dc2626",
+          fontWeight: "800",
           textAlign: "center",
           marginBottom: "20px",
           textShadow: "2px 2px 4px rgba(0,0,0,0.1)"
@@ -193,9 +193,9 @@ const templates = [
       {
         type: "paragraph",
         value: "Every successful journey begins with a single step. Whether you're starting a business, learning a new skill, or chasing a personal goal, remember that consistency beats perfection every time.",
-        style: { 
-          fontSize: 18, 
-          color: "#4338ca", 
+        style: {
+          fontSize: 18,
+          color: "#4338ca",
           textAlign: "center",
           lineHeight: "1.6",
           fontWeight: "500",
@@ -205,9 +205,9 @@ const templates = [
       {
         type: "paragraph",
         value: "What small action will you take today to move closer to your dreams?",
-        style: { 
-          fontSize: 16, 
-          color: "#6b7280", 
+        style: {
+          fontSize: 16,
+          color: "#6b7280",
           textAlign: "center",
           fontStyle: "italic",
           marginBottom: "20px"
@@ -216,9 +216,9 @@ const templates = [
       {
         type: "text",
         value: "#MotivationMonday #DreamBig #Success #Inspiration",
-        style: { 
-          fontSize: 14, 
-          color: "#2563eb", 
+        style: {
+          fontSize: 14,
+          color: "#2563eb",
           textAlign: "center",
           fontWeight: "500"
         },
@@ -238,10 +238,10 @@ const templates = [
       {
         type: "text",
         value: "You're Cordially Invited",
-        style: { 
-          fontSize: 36, 
-          color: "#7c3aed", 
-          fontWeight: "700", 
+        style: {
+          fontSize: 36,
+          color: "#7c3aed",
+          fontWeight: "700",
           textAlign: "center",
           marginBottom: "20px",
           letterSpacing: "-0.02em"
@@ -250,10 +250,10 @@ const templates = [
       {
         type: "text",
         value: "Annual Business Summit 2025",
-        style: { 
-          fontSize: 28, 
-          color: "#111827", 
-          fontWeight: "600", 
+        style: {
+          fontSize: 28,
+          color: "#111827",
+          fontWeight: "600",
           textAlign: "center",
           marginBottom: "25px"
         },
@@ -269,9 +269,9 @@ const templates = [
       {
         type: "paragraph",
         value: "Join industry leaders, entrepreneurs, and innovators for two days of insightful presentations, networking opportunities, and collaborative workshops. This year's theme focuses on 'Building Sustainable Business in the Digital Age'.",
-        style: { 
-          fontSize: 16, 
-          color: "#374151", 
+        style: {
+          fontSize: 16,
+          color: "#374151",
           textAlign: "center",
           lineHeight: "1.6",
           marginBottom: "25px",
@@ -281,9 +281,9 @@ const templates = [
       {
         type: "paragraph",
         value: "📅 Date: March 15-16, 2025\n📍 Location: Grand Convention Center\n🕒 Time: 9:00 AM - 6:00 PM\n👔 Dress Code: Business Professional",
-        style: { 
-          fontSize: 16, 
-          color: "#4b5563", 
+        style: {
+          fontSize: 16,
+          color: "#4b5563",
           textAlign: "left",
           lineHeight: "1.8",
           marginBottom: "30px",
@@ -325,10 +325,10 @@ const templates = [
       {
         type: "text",
         value: "Revolutionary Innovation Unveiled",
-        style: { 
-          fontSize: 34, 
-          color: "#059669", 
-          fontWeight: "800", 
+        style: {
+          fontSize: 34,
+          color: "#059669",
+          fontWeight: "800",
           textAlign: "center",
           marginBottom: "15px",
           textTransform: "uppercase",
@@ -347,10 +347,10 @@ const templates = [
       {
         type: "text",
         value: "Introducing the Future of Smart Technology",
-        style: { 
-          fontSize: 26, 
-          color: "#111827", 
-          fontWeight: "600", 
+        style: {
+          fontSize: 26,
+          color: "#111827",
+          fontWeight: "600",
           textAlign: "center",
           marginBottom: "20px"
         },
@@ -358,9 +358,9 @@ const templates = [
       {
         type: "paragraph",
         value: "After three years of intensive research and development, we're proud to present our groundbreaking solution that will transform how you work, create, and connect. This isn't just another product – it's a paradigm shift.",
-        style: { 
-          fontSize: 18, 
-          color: "#374151", 
+        style: {
+          fontSize: 18,
+          color: "#374151",
           textAlign: "center",
           lineHeight: "1.6",
           marginBottom: "25px",
@@ -370,9 +370,9 @@ const templates = [
       {
         type: "paragraph",
         value: "Key Features:\n• AI-powered automation that learns your preferences\n• Seamless integration with 200+ popular tools\n• Enterprise-grade security with end-to-end encryption\n• 99.9% uptime guarantee with 24/7 support\n• Intuitive interface designed for maximum productivity",
-        style: { 
-          fontSize: 16, 
-          color: "#4b5563", 
+        style: {
+          fontSize: 16,
+          color: "#4b5563",
           textAlign: "left",
           lineHeight: "1.7",
           marginBottom: "25px",
@@ -385,10 +385,10 @@ const templates = [
       {
         type: "text",
         value: "Early Bird Special: 40% Off",
-        style: { 
-          fontSize: 22, 
-          color: "#dc2626", 
-          fontWeight: "700", 
+        style: {
+          fontSize: 22,
+          color: "#dc2626",
+          fontWeight: "700",
           textAlign: "center",
           marginBottom: "15px"
         },
@@ -425,10 +425,10 @@ const templates = [
       {
         type: "text",
         value: "With Heartfelt Gratitude",
-        style: { 
-          fontSize: 34, 
-          color: "#dc2626", 
-          fontWeight: "600", 
+        style: {
+          fontSize: 34,
+          color: "#dc2626",
+          fontWeight: "600",
           textAlign: "center",
           marginBottom: "20px",
           fontFamily: "serif"
@@ -445,9 +445,9 @@ const templates = [
       {
         type: "paragraph",
         value: "Your kindness and support have made an incredible difference in our journey. From the bottom of our hearts, we want to express how much your trust and partnership mean to us.",
-        style: { 
-          fontSize: 18, 
-          color: "#374151", 
+        style: {
+          fontSize: 18,
+          color: "#374151",
           textAlign: "center",
           lineHeight: "1.7",
           marginBottom: "25px",
@@ -457,9 +457,9 @@ const templates = [
       {
         type: "paragraph",
         value: "Whether it was your encouraging words, your business, or simply being part of our community, you've contributed to something special. We're honored to have you with us and look forward to continuing this wonderful relationship.",
-        style: { 
-          fontSize: 16, 
-          color: "#6b7280", 
+        style: {
+          fontSize: 16,
+          color: "#6b7280",
           textAlign: "center",
           lineHeight: "1.6",
           marginBottom: "20px"
@@ -468,10 +468,10 @@ const templates = [
       {
         type: "text",
         value: "Thank you for being amazing!",
-        style: { 
-          fontSize: 20, 
-          color: "#7c3aed", 
-          fontWeight: "600", 
+        style: {
+          fontSize: 20,
+          color: "#7c3aed",
+          fontWeight: "600",
           textAlign: "center",
           marginBottom: "20px"
         },
@@ -491,10 +491,10 @@ const templates = [
       {
         type: "text",
         value: "Celebrating Our Success Together",
-        style: { 
-          fontSize: 32, 
-          color: "#1f2937", 
-          fontWeight: "700", 
+        style: {
+          fontSize: 32,
+          color: "#1f2937",
+          fontWeight: "700",
           textAlign: "center",
           marginBottom: "20px"
         },
@@ -510,9 +510,9 @@ const templates = [
       {
         type: "paragraph",
         value: "We're proud to announce that our team has achieved a remarkable milestone this quarter. Through dedication, collaboration, and innovative thinking, we've exceeded our targets and set new standards of excellence.",
-        style: { 
-          fontSize: 18, 
-          color: "#374151", 
+        style: {
+          fontSize: 18,
+          color: "#374151",
           textAlign: "center",
           lineHeight: "1.6",
           marginBottom: "25px"
@@ -521,10 +521,10 @@ const templates = [
       {
         type: "text",
         value: "Key Achievements",
-        style: { 
-          fontSize: 24, 
-          color: "#0f172a", 
-          fontWeight: "600", 
+        style: {
+          fontSize: 24,
+          color: "#0f172a",
+          fontWeight: "600",
           textAlign: "center",
           marginBottom: "15px"
         },
@@ -532,9 +532,9 @@ const templates = [
       {
         type: "paragraph",
         value: "• 150% increase in customer satisfaction scores\n• Successful launch of 3 major product features\n• 25% improvement in operational efficiency\n• Recognition as 'Innovation Team of the Year'\n• Zero security incidents maintained for 12 months",
-        style: { 
-          fontSize: 16, 
-          color: "#4b5563", 
+        style: {
+          fontSize: 16,
+          color: "#4b5563",
           textAlign: "left",
           lineHeight: "1.8",
           marginBottom: "25px",
@@ -547,9 +547,9 @@ const templates = [
       {
         type: "paragraph",
         value: "This success belongs to every team member who contributed their unique skills and unwavering commitment. Here's to continued growth and even greater achievements ahead!",
-        style: { 
-          fontSize: 16, 
-          color: "#374151", 
+        style: {
+          fontSize: 16,
+          color: "#374151",
           textAlign: "center",
           lineHeight: "1.6",
           marginBottom: "25px",
@@ -571,10 +571,10 @@ const templates = [
       {
         type: "text",
         value: "Q3 Sales Performance Report",
-        style: { 
-          fontSize: 32, 
-          color: "#1e40af", 
-          fontWeight: "700", 
+        style: {
+          fontSize: 32,
+          color: "#1e40af",
+          fontWeight: "700",
           textAlign: "center",
           marginBottom: "15px"
         },
@@ -582,9 +582,9 @@ const templates = [
       {
         type: "paragraph",
         value: "Comprehensive analysis of our third quarter performance, highlighting key metrics, achievements, and strategic opportunities for continued growth.",
-        style: { 
-          fontSize: 16, 
-          color: "#6b7280", 
+        style: {
+          fontSize: 16,
+          color: "#6b7280",
           textAlign: "center",
           marginBottom: "25px"
         },
@@ -600,10 +600,10 @@ const templates = [
       {
         type: "text",
         value: "Executive Summary",
-        style: { 
-          fontSize: 24, 
-          color: "#111827", 
-          fontWeight: "600", 
+        style: {
+          fontSize: 24,
+          color: "#111827",
+          fontWeight: "600",
           textAlign: "left",
           marginBottom: "15px"
         },
@@ -611,9 +611,9 @@ const templates = [
       {
         type: "paragraph",
         value: "Revenue Growth: $2.4M (up 32% YoY)\nNew Customer Acquisition: 1,847 clients\nCustomer Retention Rate: 94.2%\nAverage Deal Size: $15,600 (up 18%)\nSales Team Performance: 112% of quota achieved",
-        style: { 
-          fontSize: 16, 
-          color: "#374151", 
+        style: {
+          fontSize: 16,
+          color: "#374151",
           textAlign: "left",
           lineHeight: "1.8",
           marginBottom: "25px",
@@ -626,9 +626,9 @@ const templates = [
       {
         type: "paragraph",
         value: "Our strategic focus on enterprise clients and enhanced product offerings has yielded exceptional results. The team's dedication to customer success has established us as a market leader in our sector.",
-        style: { 
-          fontSize: 16, 
-          color: "#4b5563", 
+        style: {
+          fontSize: 16,
+          color: "#4b5563",
           textAlign: "left",
           lineHeight: "1.6",
           marginBottom: "20px"
@@ -649,10 +649,10 @@ const templates = [
       {
         type: "text",
         value: "Our Valued Customers",
-        style: { 
-          fontSize: 34, 
-          color: "#0f172a", 
-          fontWeight: "700", 
+        style: {
+          fontSize: 34,
+          color: "#0f172a",
+          fontWeight: "700",
           textAlign: "center",
           marginBottom: "20px"
         },
@@ -660,9 +660,9 @@ const templates = [
       {
         type: "paragraph",
         value: "Today, we want to take a moment to celebrate you – our incredible customers who have made our journey possible and our mission meaningful.",
-        style: { 
-          fontSize: 18, 
-          color: "#374151", 
+        style: {
+          fontSize: 18,
+          color: "#374151",
           textAlign: "center",
           lineHeight: "1.6",
           marginBottom: "25px"
@@ -679,10 +679,10 @@ const templates = [
       {
         type: "text",
         value: "By the Numbers",
-        style: { 
-          fontSize: 24, 
-          color: "#2563eb", 
-          fontWeight: "600", 
+        style: {
+          fontSize: 24,
+          color: "#2563eb",
+          fontWeight: "600",
           textAlign: "center",
           marginBottom: "15px"
         },
@@ -690,9 +690,9 @@ const templates = [
       {
         type: "paragraph",
         value: "🎯 50,000+ happy customers worldwide\n📈 99.2% customer satisfaction rate\n⭐ 4.9/5 average review rating\n🤝 5+ years serving our community\n🌍 Available in 25+ countries",
-        style: { 
-          fontSize: 16, 
-          color: "#4b5563", 
+        style: {
+          fontSize: 16,
+          color: "#4b5563",
           textAlign: "left",
           lineHeight: "1.8",
           marginBottom: "25px",
@@ -704,9 +704,9 @@ const templates = [
       {
         type: "paragraph",
         value: "Your feedback drives our innovation, your trust fuels our passion, and your success stories inspire us to keep pushing boundaries. Thank you for choosing us as your partner.",
-        style: { 
-          fontSize: 16, 
-          color: "#374151", 
+        style: {
+          fontSize: 16,
+          color: "#374151",
           textAlign: "center",
           lineHeight: "1.6",
           marginBottom: "25px",
@@ -744,10 +744,10 @@ const templates = [
       {
         type: "text",
         value: "Holiday Special Offer",
-        style: { 
-          fontSize: 36, 
-          color: "#dc2626", 
-          fontWeight: "800", 
+        style: {
+          fontSize: 36,
+          color: "#dc2626",
+          fontWeight: "800",
           textAlign: "center",
           marginBottom: "20px",
           textShadow: "2px 2px 4px rgba(0,0,0,0.1)"
@@ -756,9 +756,9 @@ const templates = [
       {
         type: "paragraph",
         value: "This holiday season, we're spreading joy with incredible savings on all our premium products and services. It's our way of saying thank you for an amazing year!",
-        style: { 
-          fontSize: 18, 
-          color: "#374151", 
+        style: {
+          fontSize: 18,
+          color: "#374151",
           textAlign: "center",
           lineHeight: "1.6",
           marginBottom: "25px"
@@ -775,10 +775,10 @@ const templates = [
       {
         type: "text",
         value: "Limited Time Offers",
-        style: { 
-          fontSize: 26, 
-          color: "#059669", 
-          fontWeight: "700", 
+        style: {
+          fontSize: 26,
+          color: "#059669",
+          fontWeight: "700",
           textAlign: "center",
           marginBottom: "20px"
         },
@@ -786,9 +786,9 @@ const templates = [
       {
         type: "paragraph",
         value: "🎁 Up to 60% off on selected items\n🚚 Free worldwide shipping on orders over $100\n⚡ Flash deals every day until New Year\n🎉 Buy 2, get 1 free on gift bundles\n💳 0% interest financing available",
-        style: { 
-          fontSize: 16, 
-          color: "#4b5563", 
+        style: {
+          fontSize: 16,
+          color: "#4b5563",
           textAlign: "left",
           lineHeight: "1.8",
           marginBottom: "25px",
@@ -801,9 +801,9 @@ const templates = [
       {
         type: "paragraph",
         value: "Offer valid until December 31st or while supplies last. Don't miss out on these exclusive holiday savings – perfect for treating yourself or finding the perfect gift for loved ones.",
-        style: { 
-          fontSize: 14, 
-          color: "#6b7280", 
+        style: {
+          fontSize: 14,
+          color: "#6b7280",
           textAlign: "center",
           lineHeight: "1.5",
           marginBottom: "25px",
@@ -842,10 +842,10 @@ const templates = [
       {
         type: "text",
         value: "Exclusive Webinar Invitation",
-        style: { 
-          fontSize: 32, 
-          color: "#1e40af", 
-          fontWeight: "700", 
+        style: {
+          fontSize: 32,
+          color: "#1e40af",
+          fontWeight: "700",
           textAlign: "center",
           marginBottom: "15px"
         },
@@ -853,10 +853,10 @@ const templates = [
       {
         type: "text",
         value: "Mastering Digital Marketing in 2025",
-        style: { 
-          fontSize: 26, 
-          color: "#374151", 
-          fontWeight: "600", 
+        style: {
+          fontSize: 26,
+          color: "#374151",
+          fontWeight: "600",
           textAlign: "center",
           marginBottom: "25px"
         },
@@ -872,9 +872,9 @@ const templates = [
       {
         type: "paragraph",
         value: "Join marketing experts Sarah Johnson and Michael Chen as they reveal cutting-edge strategies, tools, and tactics that are driving results for businesses worldwide. This 90-minute session will transform how you approach digital marketing.",
-        style: { 
-          fontSize: 16, 
-          color: "#4b5563", 
+        style: {
+          fontSize: 16,
+          color: "#4b5563",
           textAlign: "center",
           lineHeight: "1.6",
           marginBottom: "25px"
@@ -883,10 +883,10 @@ const templates = [
       {
         type: "text",
         value: "What You'll Learn",
-        style: { 
-          fontSize: 22, 
-          color: "#059669", 
-          fontWeight: "600", 
+        style: {
+          fontSize: 22,
+          color: "#059669",
+          fontWeight: "600",
           textAlign: "center",
           marginBottom: "15px"
         },
@@ -894,9 +894,9 @@ const templates = [
       {
         type: "paragraph",
         value: "• Advanced social media strategies that convert\n• AI-powered marketing automation techniques\n• Data analytics for better decision making\n• Building authentic brand communities\n• ROI optimization across all channels",
-        style: { 
-          fontSize: 16, 
-          color: "#374151", 
+        style: {
+          fontSize: 16,
+          color: "#374151",
           textAlign: "left",
           lineHeight: "1.7",
           marginBottom: "25px",
@@ -908,9 +908,9 @@ const templates = [
       {
         type: "paragraph",
         value: "📅 Date: September 15, 2025\n🕐 Time: 2:00 PM - 3:30 PM EST\n💻 Platform: Zoom (link provided after registration)\n🎫 Cost: Free for first 500 registrants",
-        style: { 
-          fontSize: 16, 
-          color: "#4b5563", 
+        style: {
+          fontSize: 16,
+          color: "#4b5563",
           textAlign: "left",
           lineHeight: "1.6",
           marginBottom: "25px",
@@ -952,10 +952,10 @@ const templates = [
       {
         type: "text",
         value: "10 Years of Innovation",
-        style: { 
-          fontSize: 38, 
-          color: "#7c3aed", 
-          fontWeight: "800", 
+        style: {
+          fontSize: 38,
+          color: "#7c3aed",
+          fontWeight: "800",
           textAlign: "center",
           marginBottom: "20px",
           letterSpacing: "-0.02em"
@@ -964,9 +964,9 @@ const templates = [
       {
         type: "paragraph",
         value: "A decade ago, we started with a simple vision: to revolutionize how businesses connect with their customers. Today, we're proud to celebrate 10 years of growth, innovation, and incredible partnerships.",
-        style: { 
-          fontSize: 18, 
-          color: "#374151", 
+        style: {
+          fontSize: 18,
+          color: "#374151",
           textAlign: "center",
           lineHeight: "1.6",
           marginBottom: "25px"
@@ -983,10 +983,10 @@ const templates = [
       {
         type: "text",
         value: "Our Journey in Numbers",
-        style: { 
-          fontSize: 24, 
-          color: "#111827", 
-          fontWeight: "600", 
+        style: {
+          fontSize: 24,
+          color: "#111827",
+          fontWeight: "600",
           textAlign: "center",
           marginBottom: "20px"
         },
@@ -994,9 +994,9 @@ const templates = [
       {
         type: "paragraph",
         value: "🏢 From 3 to 250+ employees\n🌎 Serving customers in 40+ countries\n💼 $50M+ in annual revenue\n🚀 500+ successful product launches\n🏆 15 industry awards and recognitions\n💡 100+ patents filed and approved",
-        style: { 
-          fontSize: 16, 
-          color: "#4b5563", 
+        style: {
+          fontSize: 16,
+          color: "#4b5563",
           textAlign: "left",
           lineHeight: "1.8",
           marginBottom: "25px",
@@ -1009,9 +1009,9 @@ const templates = [
       {
         type: "paragraph",
         value: "None of this would have been possible without our amazing team, loyal customers, and supportive partners. Here's to the next decade of breakthrough innovations and shared success!",
-        style: { 
-          fontSize: 16, 
-          color: "#374151", 
+        style: {
+          fontSize: 16,
+          color: "#374151",
           textAlign: "center",
           lineHeight: "1.6",
           marginBottom: "20px",
@@ -1021,7 +1021,7 @@ const templates = [
     ],
   },
 ];
- 
+
 
 
 const categories = ["All", "Email", "Marketing", "Social", "Event", "Personal"];
@@ -1036,178 +1036,178 @@ const TemplatesPage = () => {
   //   navigate("/editor", { state: { template: { ...template, fixed: true } } });
   // };
   // Complete updated handleSelect function for Templets.jsx
-const handleSelect = (template) => {
-  let currentY = 60; // Start from top with margin
-  const canvasWidth = 800; // Canvas width
-  const leftMargin = 80;
-  const rightMargin = 80;
-  const contentWidth = canvasWidth - leftMargin - rightMargin;
+  const handleSelect = (template) => {
+    let currentY = 60; // Start from top with margin
+    const canvasWidth = 800; // Canvas width
+    const leftMargin = 80;
+    const rightMargin = 80;
+    const contentWidth = canvasWidth - leftMargin - rightMargin;
 
-  const elements = template.content.map((block, index) => {
-    let elementConfig = {};
-    const baseSpacing = 40; // Base spacing between elements
+    const elements = template.content.map((block, index) => {
+      let elementConfig = {};
+      const baseSpacing = 40; // Base spacing between elements
 
-    switch (block.type) {
-      case "text":
-        // Headers/Headings
-        const headingHeight = 50;
-        elementConfig = {
-          id: crypto.randomUUID(),
-          type: "heading",
-          content: block.value || "Heading",
-          x: leftMargin,
-          y: currentY,
-          width: contentWidth,
-          height: headingHeight,
-          fontSize: block.style?.fontSize || 32,
-          color: block.style?.color || "#1f2937",
-          backgroundColor: block.style?.backgroundColor || "transparent",
-          fontFamily: block.style?.fontFamily || "Arial",
-          fontWeight: block.style?.fontWeight || "bold",
-          textAlign: block.style?.textAlign || "center",
-          fontStyle: block.style?.fontStyle || "normal",
-          textDecoration: block.style?.textDecoration || "none",
-          opacity: 1,
-          rotation: 0,
-          borderRadius: 0,
-          borderWidth: 0,
-          borderColor: "#000000"
-        };
-        currentY += headingHeight + baseSpacing;
-        break;
+      switch (block.type) {
+        case "text":
+          // Headers/Headings
+          const headingHeight = 50;
+          elementConfig = {
+            id: crypto.randomUUID(),
+            type: "heading",
+            content: block.value || "Heading",
+            x: leftMargin,
+            y: currentY,
+            width: contentWidth,
+            height: headingHeight,
+            fontSize: block.style?.fontSize || 32,
+            color: block.style?.color || "#1f2937",
+            backgroundColor: block.style?.backgroundColor || "transparent",
+            fontFamily: block.style?.fontFamily || "Arial",
+            fontWeight: block.style?.fontWeight || "bold",
+            textAlign: block.style?.textAlign || "center",
+            fontStyle: block.style?.fontStyle || "normal",
+            textDecoration: block.style?.textDecoration || "none",
+            opacity: 1,
+            rotation: 0,
+            borderRadius: 0,
+            borderWidth: 0,
+            borderColor: "#000000"
+          };
+          currentY += headingHeight + baseSpacing;
+          break;
 
-      case "paragraph":
-        // Calculate height based on content length and font size
-        const fontSize = block.style?.fontSize || 16;
-        const estimatedLines = Math.ceil(block.value.length / 60); // Rough estimate
-        const paragraphHeight = Math.max(60, estimatedLines * (fontSize + 4));
-        
-        elementConfig = {
-          id: crypto.randomUUID(),
-          type: "paragraph",
-          content: block.value || "Paragraph text",
-          x: leftMargin,
-          y: currentY,
-          width: contentWidth,
-          height: paragraphHeight,
-          fontSize: fontSize,
-          color: block.style?.color || "#4b5563",
-          backgroundColor: block.style?.backgroundColor || "transparent",
-          fontFamily: block.style?.fontFamily || "Arial",
-          fontWeight: block.style?.fontWeight || "normal",
-          textAlign: block.style?.textAlign || "left",
-          fontStyle: block.style?.fontStyle || "normal",
-          textDecoration: block.style?.textDecoration || "none",
-          opacity: 1,
-          rotation: 0,
-          borderRadius: block.style?.borderRadius || 0,
-          borderWidth: 0,
-          borderColor: "#000000"
-        };
-        currentY += paragraphHeight + baseSpacing;
-        break;
+        case "paragraph":
+          // Calculate height based on content length and font size
+          const fontSize = block.style?.fontSize || 16;
+          const estimatedLines = Math.ceil(block.value.length / 60); // Rough estimate
+          const paragraphHeight = Math.max(60, estimatedLines * (fontSize + 4));
 
-      case "button":
-        // Buttons
-        const buttonWidth = 220;
-        const buttonHeight = 50;
-        elementConfig = {
-          id: crypto.randomUUID(),
-          type: "button",
-          content: block.value || "Click Me",
-          x: leftMargin + (contentWidth - buttonWidth) / 2, // Center the button
-          y: currentY,
-          width: buttonWidth,
-          height: buttonHeight,
-          fontSize: block.style?.fontSize || 16,
-          color: block.style?.color || "#ffffff",
-          backgroundColor: block.style?.backgroundColor || "#3b82f6",
-          fontFamily: block.style?.fontFamily || "Arial",
-          fontWeight: block.style?.fontWeight || "600",
-          textAlign: "center",
-          fontStyle: "normal",
-          textDecoration: "none",
-          opacity: 1,
-          rotation: 0,
-          borderRadius: block.style?.borderRadius || 8,
-          borderWidth: 0,
-          borderColor: "#000000"
-        };
-        currentY += buttonHeight + baseSpacing + 10; // Extra spacing after buttons
-        break;
+          elementConfig = {
+            id: crypto.randomUUID(),
+            type: "paragraph",
+            content: block.value || "Paragraph text",
+            x: leftMargin,
+            y: currentY,
+            width: contentWidth,
+            height: paragraphHeight,
+            fontSize: fontSize,
+            color: block.style?.color || "#4b5563",
+            backgroundColor: block.style?.backgroundColor || "transparent",
+            fontFamily: block.style?.fontFamily || "Arial",
+            fontWeight: block.style?.fontWeight || "normal",
+            textAlign: block.style?.textAlign || "left",
+            fontStyle: block.style?.fontStyle || "normal",
+            textDecoration: block.style?.textDecoration || "none",
+            opacity: 1,
+            rotation: 0,
+            borderRadius: block.style?.borderRadius || 0,
+            borderWidth: 0,
+            borderColor: "#000000"
+          };
+          currentY += paragraphHeight + baseSpacing;
+          break;
 
-      case "image":
-        // Images
-        const imageWidth = Math.min(500, contentWidth);
-        const imageHeight = block.style?.height || 300;
-        elementConfig = {
-          id: crypto.randomUUID(),
-          type: "image",
-          content: "",
-          src: block.value || "https://images.unsplash.com/photo-1557683316-973673baf926?w=500&h=300&fit=crop",
-          x: leftMargin + (contentWidth - imageWidth) / 2, // Center the image
-          y: currentY,
-          width: imageWidth,
-          height: imageHeight,
-          fontSize: 16,
-          color: "#000000",
-          backgroundColor: "transparent",
-          fontFamily: "Arial",
-          fontWeight: "normal",
-          textAlign: "left",
-          fontStyle: "normal",
-          textDecoration: "none",
-          opacity: 1,
-          rotation: 0,
-          borderRadius: block.style?.borderRadius || 12,
-          borderWidth: 0,
-          borderColor: "#000000"
-        };
-        currentY += imageHeight + baseSpacing;
-        break;
+        case "button":
+          // Buttons
+          const buttonWidth = 220;
+          const buttonHeight = 50;
+          elementConfig = {
+            id: crypto.randomUUID(),
+            type: "button",
+            content: block.value || "Click Me",
+            x: leftMargin + (contentWidth - buttonWidth) / 2, // Center the button
+            y: currentY,
+            width: buttonWidth,
+            height: buttonHeight,
+            fontSize: block.style?.fontSize || 16,
+            color: block.style?.color || "#ffffff",
+            backgroundColor: block.style?.backgroundColor || "#3b82f6",
+            fontFamily: block.style?.fontFamily || "Arial",
+            fontWeight: block.style?.fontWeight || "600",
+            textAlign: "center",
+            fontStyle: "normal",
+            textDecoration: "none",
+            opacity: 1,
+            rotation: 0,
+            borderRadius: block.style?.borderRadius || 8,
+            borderWidth: 0,
+            borderColor: "#000000"
+          };
+          currentY += buttonHeight + baseSpacing + 10; // Extra spacing after buttons
+          break;
 
-      default:
-        // Default fallback
-        elementConfig = {
-          id: crypto.randomUUID(),
-          type: "paragraph",
-          content: block.value || "Content",
-          x: leftMargin,
-          y: currentY,
-          width: contentWidth,
-          height: 60,
-          fontSize: 16,
-          color: "#374151",
-          backgroundColor: "transparent",
-          fontFamily: "Arial",
-          fontWeight: "normal",
-          textAlign: "left",
-          fontStyle: "normal",
-          textDecoration: "none",
-          opacity: 1,
-          rotation: 0,
-          borderRadius: 0,
-          borderWidth: 0,
-          borderColor: "#000000"
-        };
-        currentY += 60 + baseSpacing;
-    }
+        case "image":
+          // Images
+          const imageWidth = Math.min(500, contentWidth);
+          const imageHeight = block.style?.height || 300;
+          elementConfig = {
+            id: crypto.randomUUID(),
+            type: "image",
+            content: "",
+            src: block.value || "https://images.unsplash.com/photo-1557683316-973673baf926?w=500&h=300&fit=crop",
+            x: leftMargin + (contentWidth - imageWidth) / 2, // Center the image
+            y: currentY,
+            width: imageWidth,
+            height: imageHeight,
+            fontSize: 16,
+            color: "#000000",
+            backgroundColor: "transparent",
+            fontFamily: "Arial",
+            fontWeight: "normal",
+            textAlign: "left",
+            fontStyle: "normal",
+            textDecoration: "none",
+            opacity: 1,
+            rotation: 0,
+            borderRadius: block.style?.borderRadius || 12,
+            borderWidth: 0,
+            borderColor: "#000000"
+          };
+          currentY += imageHeight + baseSpacing;
+          break;
 
-    return elementConfig;
-  });
+        default:
+          // Default fallback
+          elementConfig = {
+            id: crypto.randomUUID(),
+            type: "paragraph",
+            content: block.value || "Content",
+            x: leftMargin,
+            y: currentY,
+            width: contentWidth,
+            height: 60,
+            fontSize: 16,
+            color: "#374151",
+            backgroundColor: "transparent",
+            fontFamily: "Arial",
+            fontWeight: "normal",
+            textAlign: "left",
+            fontStyle: "normal",
+            textDecoration: "none",
+            opacity: 1,
+            rotation: 0,
+            borderRadius: 0,
+            borderWidth: 0,
+            borderColor: "#000000"
+          };
+          currentY += 60 + baseSpacing;
+      }
 
-  // Navigate to editor with properly formatted template
-  navigate("/editor", {
-    state: {
-      template: {
-        id: template.id,
-        name: template.name,
-        content: elements,
-        canvasBackgroundColor: "#FFFFFF",
+      return elementConfig;
+    });
+
+    // Navigate to editor with properly formatted template
+    navigate("/editor", {
+      state: {
+        template: {
+          id: template.id,
+          name: template.name,
+          content: elements,
+          canvasBackgroundColor: "#FFFFFF",
+        },
       },
-    },
-  });
-};
+    });
+  };
   const filteredTemplates = templates.filter((template) => {
     const matchesCategory =
       selectedCategory === "All" || template.category === selectedCategory;
@@ -1243,22 +1243,22 @@ const handleSelect = (template) => {
               />
             </div>
             {/* Create Blank */}
-           <button
-            onClick={() => {
-              localStorage.removeItem("canvasData"); // clear old design
-              navigate("/editor", {
-                state: {
-                  template: {
-                    elements: [],              // empty canvas
+            <button
+              onClick={() => {
+                localStorage.removeItem("canvasData"); // clear old design
+                navigate("/editor", {
+                  state: {
+                    template: {
+                      elements: [],              // empty canvas
+                    },
                   },
-                },
-              });
-            }}
-            className="inline-flex items-center space-x-2 px-8 py-4 bg-[#c2831f] text-white rounded-full cursor-pointer"
-          >
-            <Plus size={20} />
-            <span>Start from Blank</span>
-          </button>
+                });
+              }}
+              className="inline-flex items-center space-x-2 px-8 py-4 bg-[#c2831f] text-white rounded-full cursor-pointer"
+            >
+              <Plus size={20} />
+              <span>Start from Blank</span>
+            </button>
 
           </div>
         </div>
@@ -1272,11 +1272,10 @@ const handleSelect = (template) => {
               <button
                 key={category}
                 onClick={() => setSelectedCategory(category)}
-                className={`px-6 py-3 rounded-full font-medium transition-all duration-200 ${
-                  selectedCategory === category
-                    ? "bg-[#c2831f] text-white shadow-lg"
-                    : "bg-gray-800 text-gray-300 hover:bg-gray-700 hover:text-white"
-                }`}
+                className={`px-6 py-3 rounded-full font-medium transition-all duration-200 ${selectedCategory === category
+                  ? "bg-[#c2831f] text-white shadow-lg"
+                  : "bg-gray-800 text-gray-300 hover:bg-gray-700 hover:text-white"
+                  }`}
                 title={`Filter by ${category} templates`}
               >
                 {category}
@@ -1302,10 +1301,10 @@ const handleSelect = (template) => {
                     title={`Preview of ${template.name} template`}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                  
+
                   {/* Overlay Actions */}
                   <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <button 
+                    <button
                       className="flex items-center space-x-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-full font-medium shadow-lg transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300"
                       title="Preview this template"
                       onClick={(e) => {
@@ -1317,10 +1316,10 @@ const handleSelect = (template) => {
                       <span>Preview</span>
                     </button>
                   </div>
-                  
+
                   {/* Category Badge */}
                   <div className="absolute top-4 left-4">
-                    <span 
+                    <span
                       className="px-3 py-1 bg-blue-600/90 backdrop-blur-sm text-white text-sm font-medium rounded-full"
                       title={`Category: ${template.category}`}
                     >
@@ -1328,17 +1327,17 @@ const handleSelect = (template) => {
                     </span>
                   </div>
                 </div>
-                
+
                 {/* Content */}
                 <div className="p-6">
                   <div className="flex items-start justify-between mb-3">
-                    <h3 
+                    <h3
                       className="text-xl font-semibold text-white group-hover:text-blue-400 transition-colors duration-200"
                       title={`Template name: ${template.name}`}
                     >
                       {template.name}
                     </h3>
-                    <button 
+                    <button
                       className="opacity-0 group-hover:opacity-100 transition-opacity duration-200 p-2 hover:bg-gray-700 rounded-full"
                       title="Like this template"
                       onClick={(e) => {
@@ -1352,17 +1351,17 @@ const handleSelect = (template) => {
                       />
                     </button>
                   </div>
-                  
+
                   {/* Stats */}
                   <div className="flex items-center justify-between text-sm text-gray-400">
-                    <div 
+                    <div
                       className="flex items-center space-x-1"
                       title={`Rating: ${template.rating} out of 5 stars`}
                     >
                       <Star size={14} className="text-yellow-400 fill-current" />
                       <span>{template.rating}</span>
                     </div>
-                    <div 
+                    <div
                       className="flex items-center space-x-1"
                       title={`${template.likes} people liked this template`}
                     >
@@ -1370,7 +1369,7 @@ const handleSelect = (template) => {
                       <span>{template.likes}</span>
                     </div>
                   </div>
-                  
+
                   {/* Preview Content */}
                   <div className="mt-4 space-y-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     {template.content.slice(0, 2).map((element, index) => (
@@ -1416,21 +1415,21 @@ const handleSelect = (template) => {
 
       {/* Preview Modal */}
       {previewTemplate && (
-        <div 
+        <div
           className="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50"
           title="Template preview modal"
         >
           <div className="bg-white rounded-xl shadow-lg p-6 w-[700px] relative text-gray-900 max-h-[90vh] overflow-y-auto">
-           <button
-            onClick={() => setPreviewTemplate(null)}
-            className="absolute top-3 right-3 w-10 h-10 flex items-center justify-center 
+            <button
+              onClick={() => setPreviewTemplate(null)}
+              className="absolute top-3 right-3 w-10 h-10 flex items-center justify-center 
                       rounded-full bg-white/90 shadow-md 
                       text-gray-600 hover:bg-red-500 hover:text-white 
                       transition-all duration-300 ease-in-out cursor-pointer"
-            title="Close preview"
-          >
-            X
-          </button>
+              title="Close preview"
+            >
+              X
+            </button>
 
             <h2 className="text-2xl font-bold mb-4" title={`Previewing: ${previewTemplate.name}`}>
               {previewTemplate.name}
@@ -1439,8 +1438,8 @@ const handleSelect = (template) => {
               {previewTemplate.content.map((block, index) => {
                 if (block.type === "text") {
                   return (
-                    <h3 
-                      key={index} 
+                    <h3
+                      key={index}
                       style={block.style}
                       title="Text element"
                     >
@@ -1450,8 +1449,8 @@ const handleSelect = (template) => {
                 }
                 if (block.type === "paragraph") {
                   return (
-                    <p 
-                      key={index} 
+                    <p
+                      key={index}
                       style={block.style}
                       title="Paragraph element"
                     >
@@ -1461,8 +1460,8 @@ const handleSelect = (template) => {
                 }
                 if (block.type === "button") {
                   return (
-                    <button 
-                      key={index} 
+                    <button
+                      key={index}
                       style={block.style}
                       title="Button element"
                     >

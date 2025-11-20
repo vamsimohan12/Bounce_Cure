@@ -241,21 +241,32 @@ router.get("/credits", protect, async (req, res) => {
 
     if (!user) return res.status(404).json({ error: "User not found" });
 
+    // 🔹 pick the biggest value between user + payment, then default
+    const emailSendCredits =
+      Math.max(
+        user.emailLimit ?? 0,
+        latestPayment?.emailSendCredits ?? 0
+      ) || 50;
+
+    const emailVerificationCredits =
+      Math.max(
+        user.contactLimit ?? 0,
+        latestPayment?.emailVerificationCredits ?? 0
+      ) || 50;
+
     res.json({
       plan: user.plan,
-      emailSendCredits:
-        latestPayment?.emailSendCredits ?? user.emailLimit ?? 50,
-      emailVerificationCredits:
-        latestPayment?.emailVerificationCredits ?? user.contactLimit ?? 50,
+      emailSendCredits,
+      emailVerificationCredits,
       smsCredits: user.smsCredits ?? latestPayment?.smsCredits ?? 0,
       whatsappCredits: user.whatsappCredits ?? latestPayment?.whatsappCredits ?? 0,
-
     });
   } catch (error) {
     console.error("Error fetching credits:", error);
     res.status(500).json({ error: "Failed to fetch credits" });
   }
 });
+
 
 /**
  * -------------------------
@@ -296,5 +307,21 @@ router.put("/update-credits", protect, async (req, res) => {
   }
 });
 
+router.get("/debug/user", protect, async (req, res) => {
+  const user = await prisma.user.findUnique({
+    where: { id: req.user.id },
+    select: {
+      id: true,
+      email: true,
+      plan: true,
+      emailLimit: true,
+      contactLimit: true,
+      smsCredits: true,
+      whatsappCredits: true,
+    },
+  });
+
+  res.json(user);
+});
 
 export default router;
